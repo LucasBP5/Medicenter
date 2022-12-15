@@ -493,6 +493,23 @@ footer .footer_latestdesc4{
     margin-bottom: 20px;
 }
 
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: 0.5px solid #39aae1;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #39aae1;
+}
+
 @media (min-width:763px) and (max-width:799px){
 nav a{
     padding: 10px;
@@ -587,8 +604,28 @@ nav a{
 }
 
 @media (max-width:600px){
-header .container{
+.logo{
+    margin-left: 20px;
+}
+
+header{
+    height: auto;
+}
+
+.menuMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav ul{
+    flex-direction: column;
     display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding-inline-start: 0;
 }
 
 .banner_headline h1{
@@ -636,7 +673,22 @@ aside {
 }
 
 @media (max-width:451px){
-    header .container{
+    .logo{
+        margin-left: 20px;
+    }
+    
+    header{
+        height: auto;
+    }
+    
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    nav ul{
+        flex-direction: column;
         display: none;
     }
     
@@ -685,7 +737,22 @@ aside {
     }
 
     @media (max-width:320px){
-        header .container{
+        .logo{
+            margin-left: 20px;
+        }
+        
+        header{
+            height: auto;
+        }
+        
+        .menuMobile{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        
+        nav ul{
+            flex-direction: column;
             display: none;
         }
         
