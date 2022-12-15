@@ -492,3 +492,251 @@ footer .footer_latestdesc4{
     font-size: 14px;
     margin-bottom: 20px;
 }
+
+@media (min-width:763px) and (max-width:799px){
+nav a{
+    padding: 10px;
+    font-size: 13px;
+}
+nav ul{
+    padding-inline-start: 10px;
+}
+
+.banner_headline h1,
+.banner_headline h2,
+#geral section{
+    margin-left: 20px;
+}
+
+.footer_areaitem{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo{
+    margin-left: 10px;
+}
+}
+
+@media (min-width:800px) and (max-width:945px){
+.banner_headline h1,
+.banner_headline h2,
+#geral section{
+    margin-left: 20px;
+}
+    
+.footer_areaitem{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav a{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+aside{
+    margin-right: 10px;
+}
+}
+
+@media (min-width:601px) and (max-width:762px){
+.logo{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+header .container {
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headline h1,
+.banner_headline h2,
+#geral section{
+    margin-left: 20px;
+}
+
+.footer_areaitem{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer_area{
+    flex-direction: column;
+}
+
+.footer_social{
+    margin-left: 30px;
+}
+
+nav a{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.menu{
+    justify-content: center;
+}
+}
+
+@media (max-width:600px){
+header .container{
+    display: none;
+}
+
+.banner_headline h1{
+    font-size: 55px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.banner_headline h2{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.banner_options{
+    flex-direction: column;
+    height: auto;
+}
+
+#geral{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+section .container {
+    flex-direction: column;
+}
+
+aside {
+    margin-right: 20px;
+}
+
+.footer_menu{
+    flex-direction: column;
+}
+
+.footer_area{
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footer_social{
+    margin-left: 30px;
+}
+}
+
+@media (max-width:451px){
+    header .container{
+        display: none;
+    }
+    
+    .banner_headline h1{
+        font-size: 55px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    
+    .banner_headline h2{
+        font-size: 17px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .banner_options{
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #geral{
+        margin-top: 180px;
+        margin-left: 20px;
+    }
+    
+    section .container {
+        flex-direction: column;
+    }
+    
+    aside {
+        margin-right: 20px;
+    }
+    
+    .footer_menu{
+        flex-direction: column;
+    }
+    
+    .footer_area{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    .footer_social{
+        margin-left: 30px;
+    }
+    }
+
+    @media (max-width:320px){
+        header .container{
+            display: none;
+        }
+        
+        .banner_headline h1{
+            font-size: 55px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 50px;
+        }
+        
+        .banner_headline h2{
+            font-size: 17px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 50px;
+        }
+        
+        .banner_options{
+            flex-direction: column;
+            height: auto;
+        }
+        
+        #geral{
+            margin-top: 210px;
+            margin-left: 20px;
+        }
+        
+        section .container {
+            flex-direction: column;
+        }
+        
+        aside {
+            margin-right: 20px;
+        }
+        
+        .footer_menu{
+            flex-direction: column;
+        }
+        
+        .footer_area{
+            flex-direction: column;
+            margin-left: 20px;
+        }
+        
+        .footer_social{
+            margin-left: 30px;
+        }
+        }
+
+        @media (max-width:330px){
+        .department_quadro{
+            margin:10px;
+        }
+        }
